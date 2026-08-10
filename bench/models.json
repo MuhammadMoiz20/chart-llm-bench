@@ -1,0 +1,59 @@
+{
+ "openai.gpt-oss-120b-1:0": {
+  "family": "open",
+  "label": "GPT-OSS 120B",
+  "params": "120B MoE (5B active)",
+  "price_per_m": [
+   0.15,
+   0.6
+  ]
+ },
+ "qwen.qwen3-32b-v1:0": {
+  "family": "open",
+  "label": "Qwen3 32B",
+  "params": "32B dense",
+  "price_per_m": [
+   0.15,
+   0.6
+  ]
+ },
+ "google.gemma-3-27b-it": {
+  "family": "open",
+  "label": "Gemma 3 27B",
+  "params": "27B dense",
+  "price_per_m": [
+   0.14,
+   0.56
+  ],
+  "json_mode": true
+ },
+ "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+  "family": "closed",
+  "label": "Claude Haiku 4.5",
+  "params": "\u2014",
+  "price_per_m": [
+   1.0,
+   5.0
+  ],
+  "disabled": "IAM Marketplace access denied on the proxy as of 2026-08-24"
+ },
+ "us.anthropic.claude-sonnet-4-6": {
+  "family": "closed",
+  "label": "Claude Sonnet 4.6",
+  "params": "\u2014",
+  "price_per_m": [
+   3.0,
+   15.0
+  ]
+ },
+ "us.anthropic.claude-opus-4-6-v1": {
+  "family": "closed",
+  "label": "Claude Opus 4.6",
+  "params": "\u2014",
+  "price_per_m": [
+   5.0,
+   25.0
+  ],
+  "disabled": "IAM Marketplace access denied on the proxy as of 2026-08-24"
+ }
+}
